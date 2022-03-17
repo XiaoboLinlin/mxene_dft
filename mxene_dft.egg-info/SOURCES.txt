@@ -1,6 +1,7 @@
 setup.py
 mxene_dft/__init__.py
 mxene_dft/get_sol_il_xml.py
+mxene_dft/model_dft.py
 mxene_dft/model_li_dft.py
 mxene_dft/vasp_modify.py
 mxene_dft.egg-info/PKG-INFO
