@@ -1,0 +1,10 @@
+setup.py
+mxene_dft/__init__.py
+mxene_dft/get_sol_il_xml.py
+mxene_dft/model_li_dft.py
+mxene_dft/vasp_modify.py
+mxene_dft.egg-info/PKG-INFO
+mxene_dft.egg-info/SOURCES.txt
+mxene_dft.egg-info/dependency_links.txt
+mxene_dft.egg-info/not-zip-safe
+mxene_dft.egg-info/top_level.txt
