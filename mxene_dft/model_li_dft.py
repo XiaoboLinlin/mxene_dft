@@ -11,7 +11,7 @@ from mxenes.structures import change_charge
 import parmed as pm
 from mbuild.formats import lammpsdata
 
-def make_mxene_dft(length_abovetop = 4, d_spacing = 2, for_md=False, if_save = False):
+def make_mxene_dft(length_abovetop = 4, d_spacing = 2, for_md=False, if_save = False, x_repeat = 2, y_repeat = 2):
     """make mxene with li ions above it
     Args:
         length_abovetop (int, optional): 
@@ -31,7 +31,7 @@ def make_mxene_dft(length_abovetop = 4, d_spacing = 2, for_md=False, if_save = F
     composition = {"O": 0, "OH": 1, "F": 0}
     ti3c2 = build_structure(
         lattice=Ti3C2Offset,
-        periods=[2, 2, 1],
+        periods=[x_repeat, y_repeat, 1],
         displacement = displacements,
         composition=composition,
         lateral_shift=True,
